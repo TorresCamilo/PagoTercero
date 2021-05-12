@@ -9,6 +9,9 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
+import { TerceroRegistroComponent } from './Tercero/tercero-registro/tercero-registro.component';
+import { TerceroConsultaComponent } from './Tercero/tercero-consulta/tercero-consulta.component';
+import { PagoConsultaComponent } from './Pago/pago-consulta/pago-consulta.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
     NavMenuComponent,
     HomeComponent,
     CounterComponent,
-    FetchDataComponent
+    FetchDataComponent,
+    TerceroRegistroComponent,
+    TerceroConsultaComponent,
+    PagoConsultaComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
