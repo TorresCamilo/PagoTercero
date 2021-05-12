@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SMgLIL6Hsidy++ISz5BPqJGfZ9ZD6NrjznTNM9G8EhBzKJBGBLe9dhVSlwMJUnbrRUJoWS+1vdr9uFTaW+ztEg==",
+  "dgSpecHash": "+YCA9of45WFeX6c7/e9vJODORRYoo9mQyeYO9E5BT7NpB0LUrMmUBn2RKkReuXrCiGBW3PdSo7oH+JIiCeoY8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM\\Logica\\Logica.csproj",
+  "projectFilePath": "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM2\\Logica\\Logica.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Camilo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Camilo\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

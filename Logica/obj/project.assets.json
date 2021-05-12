@@ -5745,11 +5745,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM\\Logica\\Logica.csproj",
+      "projectUniqueName": "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM2\\Logica\\Logica.csproj",
       "projectName": "Logica",
-      "projectPath": "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM\\Logica\\Logica.csproj",
+      "projectPath": "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM2\\Logica\\Logica.csproj",
       "packagesPath": "C:\\Users\\Camilo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM\\Logica\\obj\\",
+      "outputPath": "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM2\\Logica\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Camilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5766,11 +5766,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM\\Datos\\Datos.csproj": {
-              "projectPath": "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM\\Datos\\Datos.csproj"
+            "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM2\\Datos\\Datos.csproj": {
+              "projectPath": "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM2\\Datos\\Datos.csproj"
             },
-            "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM\\Entity\\Entity.csproj"
+            "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM2\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM2\\Entity\\Entity.csproj"
             }
           }
         }

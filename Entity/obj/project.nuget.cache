@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vPiFCVvbyBNpQR3CS60aPK+JKylLWfq5HETAgHiNy6VzmaITdjKfcw03WN4RwQ7W+PhGquN8bg/kvdo61KZImg==",
+  "dgSpecHash": "fa0AqsTLlq9Qfkc1H7ygd11qyeOd0QuZZ/NdBSIVTPNSorRQFezSP0ZUHyNSkCbfdp9pxdkfOQ6f5ULi2L1Nqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM\\Entity\\Entity.csproj",
+  "projectFilePath": "C:\\Users\\Camilo\\Desktop\\Webs\\PagoTercero\\PagoTerceroORM2\\Entity\\Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Camilo\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
