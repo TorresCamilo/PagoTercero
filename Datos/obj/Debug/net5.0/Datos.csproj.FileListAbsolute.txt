@@ -1,0 +1,15 @@
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Datos\bin\Debug\net5.0\Datos.deps.json
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Datos\bin\Debug\net5.0\Datos.dll
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Datos\bin\Debug\net5.0\ref\Datos.dll
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Datos\bin\Debug\net5.0\Datos.pdb
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Datos\bin\Debug\net5.0\Entity.dll
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Datos\bin\Debug\net5.0\Entity.pdb
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Datos\obj\Debug\net5.0\Datos.csprojAssemblyReference.cache
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Datos\obj\Debug\net5.0\Datos.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Datos\obj\Debug\net5.0\Datos.AssemblyInfoInputs.cache
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Datos\obj\Debug\net5.0\Datos.AssemblyInfo.cs
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Datos\obj\Debug\net5.0\Datos.csproj.CoreCompileInputs.cache
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Datos\obj\Debug\net5.0\Datos.csproj.CopyComplete
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Datos\obj\Debug\net5.0\Datos.dll
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Datos\obj\Debug\net5.0\ref\Datos.dll
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Datos\obj\Debug\net5.0\Datos.pdb

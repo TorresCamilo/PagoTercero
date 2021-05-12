@@ -1,0 +1,12 @@
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Entity\bin\Debug\net5.0\Entity.deps.json
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Entity\bin\Debug\net5.0\Entity.dll
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Entity\bin\Debug\net5.0\ref\Entity.dll
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Entity\bin\Debug\net5.0\Entity.pdb
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Entity\obj\Debug\net5.0\Entity.csprojAssemblyReference.cache
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Entity\obj\Debug\net5.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Entity\obj\Debug\net5.0\Entity.AssemblyInfoInputs.cache
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Entity\obj\Debug\net5.0\Entity.AssemblyInfo.cs
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Entity\obj\Debug\net5.0\Entity.csproj.CoreCompileInputs.cache
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Entity\obj\Debug\net5.0\Entity.dll
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Entity\obj\Debug\net5.0\ref\Entity.dll
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Entity\obj\Debug\net5.0\Entity.pdb

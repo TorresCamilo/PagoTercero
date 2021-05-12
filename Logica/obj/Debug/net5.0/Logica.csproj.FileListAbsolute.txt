@@ -1,0 +1,17 @@
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\bin\Debug\net5.0\Logica.deps.json
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\bin\Debug\net5.0\Logica.dll
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\bin\Debug\net5.0\ref\Logica.dll
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\bin\Debug\net5.0\Logica.pdb
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\bin\Debug\net5.0\Datos.dll
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\bin\Debug\net5.0\Entity.dll
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\bin\Debug\net5.0\Entity.pdb
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\bin\Debug\net5.0\Datos.pdb
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\obj\Debug\net5.0\Logica.csprojAssemblyReference.cache
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\obj\Debug\net5.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\obj\Debug\net5.0\Logica.AssemblyInfoInputs.cache
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\obj\Debug\net5.0\Logica.AssemblyInfo.cs
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\obj\Debug\net5.0\Logica.csproj.CoreCompileInputs.cache
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\obj\Debug\net5.0\Logica.csproj.CopyComplete
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\obj\Debug\net5.0\Logica.dll
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\obj\Debug\net5.0\ref\Logica.dll
+c:\Users\Camilo\Desktop\Webs\PagoTercero\PagoTerceroORM\Logica\obj\Debug\net5.0\Logica.pdb
