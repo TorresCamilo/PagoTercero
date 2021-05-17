@@ -1,0 +1,13 @@
+Realizado en el Frontend
+ng g c --skipTests=true Tercero/terceroConsulta --module app
+ng g c --skipTests=true Tercero/terceroRegistro --module app
+ng g c --skipTests=true Pago/pagoConsulta --module app
+ng g c --skipTests=true Pago/pagoRegistro --module app
+
+----> Se agrega las rutas dentro de app.module
+
+ng g service services/pago 
+ng g service services/tercero
+
+ng g class --skipTests=true tercero/models/tercero
+ng g class --skipTests=true pago/models/pago

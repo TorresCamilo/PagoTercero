@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TerceroService } from 'src/app/services/tercero.service';
+import { Tercero } from '../models/tercero';
 
 @Component({
   selector: 'app-tercero-registro',
@@ -6,10 +8,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tercero-registro.component.css']
 })
 export class TerceroRegistroComponent implements OnInit {
-
-  constructor() { }
+  tercero: Tercero;
+  constructor(private terceroService: TerceroService) { }
 
   ngOnInit() {
+    this.tercero = new Tercero();
   }
 
+  add() {
+    this.terceroService.post(this.tercero).subscribe(t => {
+      // console.log("Se agrego a "+t.nombre);
+    });
+  }
 }

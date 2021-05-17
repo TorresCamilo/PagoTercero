@@ -1,1 +1,42 @@
-<p>tercero-registro works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+
+      <h2>Registro de Terceros</h2>
+      <form>
+        <div class="form-group">
+          <label>Identificacion</label>
+          <input
+            type="text"
+            name="identificacion"
+            [(ngModel)]="tercero.identificacion"
+            class="form-control"
+          />
+        </div>
+        <div class="form-group">
+          <label>Nombre</label>
+          <input
+            type="text"
+            name="nombre"
+            [(ngModel)]="tercero.nombre"
+            class="form-control"
+          />
+        </div>
+        <div class="form-group">
+          <label>Telefono</label>
+          <input
+            type="number"
+            name="sexo"
+            [(ngModel)]="tercero.telefono"
+            class="form-control"
+          />
+        </div>
+        
+        <div class="text-center">
+          <button class="btn btn-primary mr-1" (click)="add()">Register</button>
+          <button class="btn btn-secondary" type="reset">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

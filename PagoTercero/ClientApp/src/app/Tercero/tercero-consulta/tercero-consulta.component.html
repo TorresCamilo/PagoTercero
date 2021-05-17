@@ -1,1 +1,18 @@
-<p>tercero-consulta works!</p>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">identificación</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Telefono</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let tercero of terceros; index as i">
+      <th scope="row">{{ i + 1 }}</th>
+      <td>{{ tercero.identificacion }}</td>
+      <td>{{ tercero.nombre }}</td>
+      <td>{{ tercero.telefono }}</td>
+    </tr>
+  </tbody>
+</table>
