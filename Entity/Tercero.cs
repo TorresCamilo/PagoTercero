@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Entity
 {
     public class Tercero
     {
-        public string TerceroId { get; set; }
+        [Key]
+        public string Identificacion { get; set; }
         public string Nombre { get; set; }
         public string Telefono { get; set; }
         

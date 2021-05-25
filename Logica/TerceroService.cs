@@ -20,7 +20,7 @@ namespace Logica
         public TerceroResponse GuardarTercero(Tercero tercero){
             try
             {
-                var terceroBuscado = context.Terceros.Find(tercero.TerceroId);
+                var terceroBuscado = context.Terceros.Find(tercero.Identificacion);
                 if(terceroBuscado == null){
                     context.Terceros.Add(tercero);
                     context.SaveChanges();
@@ -47,7 +47,7 @@ namespace Logica
         public TerceroResponse BuscarTerceroConPago(string idTercero){
             try
             {
-                var terceroBuscado = context.Terceros.Where(t => t.TerceroId == idTercero).Include(t => t.Pagos).FirstOrDefault();
+                var terceroBuscado = context.Terceros.Where(t => t.Identificacion == idTercero).Include(t => t.Pagos).FirstOrDefault();
                 if(terceroBuscado == null){
                     return new TerceroResponse("Error, la identificacion ingresada no esta registrada");
                 }

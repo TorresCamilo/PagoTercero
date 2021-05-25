@@ -1,4 +1,5 @@
-import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Inject, Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { catchError, tap } from 'rxjs/operators';
 import { Tercero } from '../Tercero/models/tercero';
@@ -7,32 +8,37 @@ import { Tercero } from '../Tercero/models/tercero';
   providedIn: "root",
 })
 export class TerceroService {
-  constructor() {}
+  baseUrl: string;
+  constructor(private http: HttpClient, @Inject("BASE_URL") baseUrl: string) {
+    this.baseUrl = baseUrl;
+  }
   get(): Observable<Tercero[]> {
-    let terceros: Tercero[] = [];
-    terceros = JSON.parse(localStorage.getItem("datos"));
+    /*let terceros: Tercero[] = [];
+    terceros = JSON.parse(localStorage.getItem("datos"));*/
 
-    return of(terceros).pipe(
+    return this.http.get<Tercero[]>(this.baseUrl + "api/tercero").pipe(
       tap(_ => console.log("Se consultaron los tercero satisfactoriamente")),
       catchError(error => {
         console.log("Error al consultar los datos")
-        return of(terceros)
+        return of(error as Tercero[])
       })
     );
   }
-  post(tercero: Tercero) : Observable<Tercero>{
-    let terceros: Tercero[] = [];
+  post(tercero: Tercero): Observable<Tercero> {
+    /*let terceros: Tercero[] = [];
     let storageDatos = JSON.parse(localStorage.getItem("datos"));
     if (storageDatos != null) {
       terceros = storageDatos;
     }
     terceros.push(tercero);
-    localStorage.setItem("datos", JSON.stringify(terceros));
-    return of(tercero).pipe(
-      tap(_ => console.log("Se guardaron los tercero satisfactoriamente")),
+    localStorage.setItem("datos", JSON.stringify(terceros));*/
+
+    return this.http.post<Tercero>(this.baseUrl + "api/tercero", tercero).pipe(
+      tap((_) => console.log("Se guardaron los tercero satisfactoriamente")),
       catchError((error) => {
         console.log("Error al registrar los datos");
-        return of(tercero);
+        
+        return of(error as Tercero);
       })
     );
   }

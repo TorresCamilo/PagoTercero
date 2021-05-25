@@ -18,7 +18,7 @@ namespace Logica
         public PagoResponse GuardarPago(Pago pago){
             try
             {
-                var terceroBuscado = context.Terceros.Find(pago.Tercero.TerceroId);
+                var terceroBuscado = context.Terceros.Find(pago.Tercero.Identificacion);
                 if(terceroBuscado == null)
                     context.Terceros.Add(pago.Tercero);
                 else

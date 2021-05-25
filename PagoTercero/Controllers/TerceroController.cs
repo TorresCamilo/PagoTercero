@@ -60,7 +60,7 @@ namespace PagoTercero.Controllers
         private Tercero MapearTercero(TerceroInputModel terceroInput)
         {
             var tercero = new Tercero(){
-                TerceroId = terceroInput.TerceroId,
+                Identificacion = terceroInput.Identificacion,
                 Telefono = terceroInput.Telefono,
                 Nombre = terceroInput.Nombre
             };

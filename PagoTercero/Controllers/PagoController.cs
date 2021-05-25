@@ -43,12 +43,12 @@ namespace PagoTercero.Controllers
         {
             var pago = new Pago(){
                 PagoId = pagoInput.PagoId,
-                TerceroId = pagoInput.Tercero.TerceroId,
+                TerceroId = pagoInput.Tercero.Identificacion,
                 Fecha = pagoInput.Fecha,
                 Valor = pagoInput.Valor,
                 PorcentajeIva = pagoInput.PorcentajeIva,
                 Tercero = new Tercero(){
-                    TerceroId = pagoInput.Tercero.TerceroId,
+                    Identificacion = pagoInput.Tercero.Identificacion,
                     Nombre = pagoInput.Tercero.Nombre,
                     Telefono = pagoInput.Tercero.Telefono
                 }

@@ -6,7 +6,7 @@ namespace PagoTercero.Models
 {
     public class TerceroInputModel
     {
-        public string TerceroId { get; set; }
+        public string Identificacion { get; set; }
         public string Nombre { get; set; }
         public string Telefono { get; set; }
     }
@@ -14,7 +14,7 @@ namespace PagoTercero.Models
   {
     public TerceroViewModel(Tercero tercero)
     {
-        this.TerceroId = tercero.TerceroId;
+        this.Identificacion = tercero.Identificacion;
         this.Nombre = tercero.Nombre;
         this.Telefono = tercero.Telefono;
     }
@@ -24,7 +24,7 @@ namespace PagoTercero.Models
         public List<InformacionPagoViewModel> Pagos { get; set; }
         public TerceroConPagosViewModel(Tercero tercero)
         {
-            TerceroId = tercero.TerceroId;
+            Identificacion = tercero.Identificacion;
             Nombre = tercero.Nombre;
             Telefono = tercero.Telefono;
             Pagos = tercero.Pagos.Select(p => new InformacionPagoViewModel(p)).ToList();
